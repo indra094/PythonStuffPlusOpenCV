@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m ""
+git remote add origin remote repository URL
+git remote -v
+git push <remote> <local_branch>:<remote_name>
+
+
+*******
+git remote add origin https://github.com/indra094/LFCZone.git
+git push origin master
+
+***

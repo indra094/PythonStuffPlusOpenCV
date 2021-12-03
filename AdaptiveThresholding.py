@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread(r'C:\Users\indra094\Pictures\Camera Roll\EDS.png', 0)
+img = cv2.imread(r'C:\Users\indra094\Documents\scripts\ResultImages\veins3.jpeg', 0)
 #frame = cv2.imread(r'C:\opencv-master\opencv-master\samples\data\smarties.png')
 
 _, th1 = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)#_ is the threshold value
